@@ -441,7 +441,7 @@ function injectCommonNetworks(): void {
     registerEth("optimism", 10, {
         ensNetwork: 1,
         plugins: [
-            getPriorityFeePlugin(BigInt("1000000"))
+            getPriorityFeePlugin(BigInt("100000000"))
         ]
     });
     registerEth("optimism-goerli", 420, { });
